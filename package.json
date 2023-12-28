@@ -7,7 +7,7 @@
   "scripts": {
     "build": "postcss src/main.css -o public/tailwind.css",
     "watch": "postcss src/main.css -o public/tailwind.css -w",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d public",
     "predeploy": "npm run build"
   },
   "keywords": [],
