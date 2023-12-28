@@ -5,7 +5,7 @@ This project is a simple HTML/CSS replica of the Tesla website's main page, util
 ![tesla_animation](https://github.com/WerkaStrong/Tesla/assets/98229283/d3521b05-5f78-4fbe-96a9-f2e555ff5214)
 
 ## Demo
-[Demo]https://werkastrong.github.io/Tesla/
+https://werkastrong.github.io/Tesla/
 
 ## Description
 
