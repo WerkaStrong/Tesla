@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://werkastrong.github.io/Tesla/",
   "scripts": {
     "build": "postcss src/main.css -o public/tailwind.css",
     "watch": "postcss src/main.css -o public/tailwind.css -w"
