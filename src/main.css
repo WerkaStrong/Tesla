@@ -9,6 +9,10 @@ html {
     font-family: "Montserrat", sans-serif;
 }
 
+.menu{
+    @apply mt-20;
+}
+
 .navbar{
     @apply flex items-center justify-between w-full fixed top-0 z-10 h-[5.4rem] p-[3.2rem];
 }
@@ -34,7 +38,7 @@ html {
 }
 
 .model_name{
-    @apply text-[4rem] text-[#393c41] font-semibold;
+    @apply text-5xl md:text-7xl  text-[#393c41] font-semibold;
 }
 
 .tag_line{
@@ -54,5 +58,5 @@ html {
 }
 
 .down_svg{
-    @apply block w-full h-20 mx-auto absolute top-[93%] animate-bounce;
+    @apply hidden md:block w-full h-20 mx-auto absolute top-[93%] animate-bounce;
 }
