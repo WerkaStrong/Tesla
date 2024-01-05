@@ -428,8 +428,8 @@ video {
 .hidden{
   display: none;
 }
-.h-6{
-  height: 1.5rem;
+.h-4{
+  height: 1rem;
 }
 .cursor-pointer{
   cursor: pointer;
@@ -442,6 +442,10 @@ html {
     font-size: 62.5%;
     scroll-behavior: smooth;
     font-family: "Montserrat", sans-serif;
+}
+
+.menu{
+  margin-top: 5rem;
 }
 
 .navbar{
@@ -505,10 +509,18 @@ html {
 }
 
 .model_name{
-  font-size: 4rem;
+  font-size: 3rem;
+  line-height: 1;
   font-weight: 600;
   --tw-text-opacity: 1;
   color: rgb(57 60 65 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px){
+  .model_name{
+    font-size: 4.5rem;
+    line-height: 1;
+  }
 }
 
 .tag_line{
@@ -570,7 +582,7 @@ html {
   top: 93%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  display: none;
   height: 5rem;
   width: 100%;
 }
@@ -588,6 +600,15 @@ html {
 
 .down_svg{
   animation: bounce 1s infinite;
+}
+
+@media (min-width: 768px){
+  .down_svg{
+    display: block;
+  }
+  .md\:h-6{
+    height: 1.5rem;
+  }
 }
 
 @media (min-width: 1024px){
